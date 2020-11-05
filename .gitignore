@@ -1,6 +1,9 @@
 
 # C:\Users\dev\Documents\repositories\mimetic_tribes\.gitignore
 
+# Exclude secrets
+**/json/*_secrets.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
