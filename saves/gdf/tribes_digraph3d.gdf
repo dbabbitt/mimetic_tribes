@@ -1,0 +1,124 @@
+nodedef> name VARCHAR,label VARCHAR,width DOUBLE,height DOUBLE,x DOUBLE,y DOUBLE,color VARCHAR,Splitter Z-Level INTEGER default 0
+SJAs (Social Justice Activists),"SJAs (Social Justice Activists)",10.0,10.0,-20.723045,187.7065,'77,172,38',0
+Black Lives Matter,"Black Lives Matter",10.0,10.0,-627.03424,-90.09197,'231,159,203',0
+#MeToo,"#MeToo",10.0,10.0,-266.97076,359.04376,'243,225,236',0
+Gender-Critical Feminists,"Gender-Critical Feminists",10.0,10.0,102.54816,646.4288,'227,137,193',0
+Modern Neo-Marxists,"Modern Neo-Marxists",10.0,10.0,-231.11414,-603.9049,'215,71,160',0
+Antifa,"Antifa",10.0,10.0,-397.39978,43.545593,'239,203,225',0
+Occupy,"Occupy",10.0,10.0,185.67853,-585.31714,'215,71,160',0
+Dirtbag Left,"Dirtbag Left",10.0,10.0,82.828835,-141.48322,'223,115,182',0
+DSA (Democratic Socialists of America),"DSA (Democratic Socialists of America)",10.0,10.0,-163.09044,-265.12463,'227,137,193',0
+Establishment Left,"Establishment Left",10.0,10.0,247.53484,-376.7825,'179,217,163',0
+Optimists,"Optimists",10.0,10.0,121.49785,-57.82072,'223,115,182',0
+New Atheists,"New Atheists",10.0,10.0,623.3504,193.2504,'223,115,182',0
+Street Epistemologists,"Street Epistemologists",10.0,10.0,655.68756,-6.440651,'219,93,171',0
+Rationalist Diaspora,"Rationalist Diaspora",10.0,10.0,493.84262,405.41898,'219,93,171',0
+Post-Rationalists,"Post-Rationalists",10.0,10.0,-534.43353,368.80942,'208,28,139',0
+Integral Theorists,"Integral Theorists",10.0,10.0,539.6371,-272.81122,'208,28,139',0
+Sorters,"Sorters",10.0,10.0,271.80252,249.6117,'227,137,193',0
+Intellectual Dark Web,"Intellectual Dark Web",10.0,10.0,230.21779,334.9079,'211,49,149',0
+Benedictines,"Benedictines",10.0,10.0,344.53955,-14.674255,'215,71,160',0
+Christian Right,"Christian Right",10.0,10.0,425.47076,-178.73434,'227,137,193',0
+Establishment Right,"Establishment Right",10.0,10.0,-356.59943,-379.43866,'179,217,163',0
+Tea Party,"Tea Party",10.0,10.0,-359.32126,-521.775,'215,71,160',0
+Trumpists,"Trumpists",10.0,10.0,-76.9104,-100.21913,'247,247,247',0
+InfoWarriors,"InfoWarriors",10.0,10.0,341.4983,-497.91492,'215,71,160',0
+QAnoners,"QAnoners",10.0,10.0,9.924404,-648.49133,'215,71,160',0
+Alt-Lite,"Alt-Lite",10.0,10.0,-381.6823,194.68683,'243,225,236',0
+Alt-Right,"Alt-Right",10.0,10.0,-158.26054,21.327354,'213,232,205',0
+Modern Neo-Nazis,"Modern Neo-Nazis",10.0,10.0,-346.9539,-58.719444,'227,137,193',0
+Neoreactionaries,"Neoreactionaries",10.0,10.0,347.91684,84.640625,'223,115,182',0
+MRA (Mens Right Advocates),"MRA (Mens Right Advocates)",10.0,10.0,-32.73982,425.2094,'227,137,193',0
+Manosphere,"Manosphere",10.0,10.0,-180.26875,583.59485,'227,137,193',0
+MGTOW (Men Going Their Own Way),"MGTOW (Men Going Their Own Way)",10.0,10.0,301.91608,494.1964,'219,93,171',0
+Incels,"Incels",10.0,10.0,-205.08563,263.6479,'219,93,171',0
+edgedef> node1,node2,weight DOUBLE,directed BOOLEAN,color VARCHAR
+SJAs (Social Justice Activists),Alt-Lite,1.0,true,'0,0,0'
+SJAs (Social Justice Activists),Alt-Right,1.0,true,'0,0,0'
+SJAs (Social Justice Activists),Sorters,1.0,true,'0,0,0'
+SJAs (Social Justice Activists),Trumpists,1.0,true,'0,0,0'
+Black Lives Matter,Alt-Lite,1.0,true,'0,0,0'
+Black Lives Matter,Alt-Right,1.0,true,'0,0,0'
+Black Lives Matter,Trumpists,1.0,true,'0,0,0'
+Black Lives Matter,Establishment Right,1.0,true,'0,0,0'
+#MeToo,Alt-Lite,1.0,true,'0,0,0'
+#MeToo,MRA (Mens Right Advocates),1.0,true,'0,0,0'
+#MeToo,Manosphere,1.0,true,'0,0,0'
+#MeToo,Incels,1.0,true,'0,0,0'
+Gender-Critical Feminists,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Gender-Critical Feminists,MRA (Mens Right Advocates),1.0,true,'0,0,0'
+Modern Neo-Marxists,Establishment Left,1.0,true,'0,0,0'
+Modern Neo-Marxists,Establishment Right,1.0,true,'0,0,0'
+Antifa,Alt-Right,1.0,true,'0,0,0'
+Antifa,Alt-Lite,1.0,true,'0,0,0'
+Antifa,Modern Neo-Nazis,1.0,true,'0,0,0'
+Antifa,Trumpists,1.0,true,'0,0,0'
+Occupy,Establishment Left,1.0,true,'0,0,0'
+Occupy,Establishment Right,1.0,true,'0,0,0'
+Dirtbag Left,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Dirtbag Left,Alt-Right,1.0,true,'0,0,0'
+Dirtbag Left,Establishment Left,1.0,true,'0,0,0'
+DSA (Democratic Socialists of America),Establishment Left,1.0,true,'0,0,0'
+DSA (Democratic Socialists of America),Establishment Right,1.0,true,'0,0,0'
+DSA (Democratic Socialists of America),Trumpists,1.0,true,'0,0,0'
+DSA (Democratic Socialists of America),Alt-Right,1.0,true,'0,0,0'
+Establishment Left,Establishment Right,1.0,true,'0,0,0'
+Establishment Left,DSA (Democratic Socialists of America),1.0,true,'0,0,0'
+Establishment Left,Dirtbag Left,1.0,true,'0,0,0'
+Optimists,Trumpists,1.0,true,'0,0,0'
+Optimists,Neoreactionaries,1.0,true,'0,0,0'
+Optimists,Alt-Right,1.0,true,'0,0,0'
+Optimists,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+New Atheists,Christian Right,1.0,true,'0,0,0'
+New Atheists,Sorters,1.0,true,'0,0,0'
+Street Epistemologists,Christian Right,1.0,true,'0,0,0'
+Street Epistemologists,Sorters,1.0,true,'0,0,0'
+Rationalist Diaspora,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Rationalist Diaspora,Neoreactionaries,1.0,true,'0,0,0'
+Sorters,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Sorters,#MeToo,1.0,true,'0,0,0'
+Intellectual Dark Web,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Benedictines,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Benedictines,New Atheists,1.0,true,'0,0,0'
+Christian Right,Establishment Left,1.0,true,'0,0,0'
+Christian Right,New Atheists,1.0,true,'0,0,0'
+Christian Right,Street Epistemologists,1.0,true,'0,0,0'
+Establishment Right,Establishment Left,1.0,true,'0,0,0'
+Establishment Right,Trumpists,1.0,true,'0,0,0'
+Establishment Right,Alt-Right,1.0,true,'0,0,0'
+Tea Party,Establishment Left,1.0,true,'0,0,0'
+Tea Party,Establishment Right,1.0,true,'0,0,0'
+Trumpists,Establishment Left,1.0,true,'0,0,0'
+Trumpists,Establishment Right,1.0,true,'0,0,0'
+Trumpists,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Trumpists,Antifa,1.0,true,'0,0,0'
+InfoWarriors,Establishment Left,1.0,true,'0,0,0'
+InfoWarriors,Establishment Right,1.0,true,'0,0,0'
+QAnoners,Establishment Left,1.0,true,'0,0,0'
+QAnoners,Establishment Right,1.0,true,'0,0,0'
+Alt-Lite,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Alt-Lite,#MeToo,1.0,true,'0,0,0'
+Alt-Lite,Black Lives Matter,1.0,true,'0,0,0'
+Alt-Lite,Antifa,1.0,true,'0,0,0'
+Alt-Right,Antifa,1.0,true,'0,0,0'
+Alt-Right,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Alt-Right,Black Lives Matter,1.0,true,'0,0,0'
+Alt-Right,Establishment Right,1.0,true,'0,0,0'
+Alt-Right,Alt-Lite,1.0,true,'0,0,0'
+Modern Neo-Nazis,Antifa,1.0,true,'0,0,0'
+Modern Neo-Nazis,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Modern Neo-Nazis,Establishment Left,1.0,true,'0,0,0'
+Modern Neo-Nazis,Establishment Right,1.0,true,'0,0,0'
+Neoreactionaries,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Neoreactionaries,Rationalist Diaspora,1.0,true,'0,0,0'
+MRA (Mens Right Advocates),SJAs (Social Justice Activists),1.0,true,'0,0,0'
+MRA (Mens Right Advocates),#MeToo,1.0,true,'0,0,0'
+MRA (Mens Right Advocates),Gender-Critical Feminists,1.0,true,'0,0,0'
+Manosphere,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Manosphere,#MeToo,1.0,true,'0,0,0'
+Manosphere,Gender-Critical Feminists,1.0,true,'0,0,0'
+MGTOW (Men Going Their Own Way),Manosphere,1.0,true,'0,0,0'
+MGTOW (Men Going Their Own Way),SJAs (Social Justice Activists),1.0,true,'0,0,0'
+MGTOW (Men Going Their Own Way),Gender-Critical Feminists,1.0,true,'0,0,0'
+Incels,SJAs (Social Justice Activists),1.0,true,'0,0,0'
+Incels,#MeToo,1.0,true,'0,0,0'
